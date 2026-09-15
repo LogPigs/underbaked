@@ -1,0 +1,13 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+            "file": "underbaked:font/loading_bar.png",
+			"ascent": 6,
+            "height": 6,
+			"chars": [
+				"0123456789:"
+			]
+		}
+	]
+}

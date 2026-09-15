@@ -1,0 +1,203 @@
+{
+	"model": {
+		"type": "minecraft:composite",
+		"models": [
+			{
+				"type": "minecraft:model",
+				"model": "underbaked:item/burger/bottom_bun"
+			},
+			{
+				"type": "minecraft:composite",
+				"models": [
+					{
+						"type": "minecraft:condition",
+						"property": "minecraft:component",
+						"predicate": "minecraft:custom_data",
+						"value": {
+							"ingredients": {
+								"top": "cheese_slice"
+							}
+						},
+						"on_true": {
+							"type": "minecraft:model",
+							"model": "underbaked:item/burger/top/cheese_slice",
+							"tints": []
+						},
+						"on_false": {
+							"type": "minecraft:empty"
+						}
+					},
+					{
+						"type": "minecraft:condition",
+						"property": "minecraft:component",
+						"predicate": "minecraft:custom_data",
+						"value": {
+							"ingredients": {
+								"top": "lettuce_leaf"
+							}
+						},
+						"on_true": {
+							"type": "minecraft:model",
+							"model": "underbaked:item/burger/top/lettuce_leaf",
+							"tints": []
+						},
+						"on_false": {
+							"type": "minecraft:empty"
+						}
+					},
+					{
+						"type": "minecraft:condition",
+						"property": "minecraft:component",
+						"predicate": "minecraft:custom_data",
+						"value": {
+							"ingredients": {
+								"top": "burger_patty"
+							}
+						},
+						"on_true": {
+							"type": "minecraft:model",
+							"model": "underbaked:item/burger/top/burger_patty",
+							"tints": []
+						},
+						"on_false": {
+							"type": "minecraft:empty"
+						}
+					}
+				]
+			},
+			{
+				"type": "minecraft:composite",
+				"models": [
+					{
+						"type": "minecraft:condition",
+						"property": "minecraft:component",
+						"predicate": "minecraft:custom_data",
+						"value": {
+							"ingredients": {
+								"mid": "cheese_slice"
+							}
+						},
+						"on_true": {
+							"type": "minecraft:model",
+							"model": "underbaked:item/burger/mid/cheese_slice",
+							"tints": []
+						},
+						"on_false": {
+							"type": "minecraft:empty"
+						}
+					},
+					{
+						"type": "minecraft:condition",
+						"property": "minecraft:component",
+						"predicate": "minecraft:custom_data",
+						"value": {
+							"ingredients": {
+								"mid": "lettuce_leaf"
+							}
+						},
+						"on_true": {
+							"type": "minecraft:model",
+							"model": "underbaked:item/burger/mid/lettuce_leaf",
+							"tints": []
+						},
+						"on_false": {
+							"type": "minecraft:empty"
+						}
+					},
+					{
+						"type": "minecraft:condition",
+						"property": "minecraft:component",
+						"predicate": "minecraft:custom_data",
+						"value": {
+							"ingredients": {
+								"mid": "burger_patty"
+							}
+						},
+						"on_true": {
+							"type": "minecraft:model",
+							"model": "underbaked:item/burger/mid/burger_patty",
+							"tints": []
+						},
+						"on_false": {
+							"type": "minecraft:empty"
+						}
+					}
+				]
+			},
+			{
+				"type": "minecraft:composite",
+				"models": [
+					{
+						"type": "minecraft:condition",
+						"property": "minecraft:component",
+						"predicate": "minecraft:custom_data",
+						"value": {
+							"ingredients": {
+								"low": "cheese_slice"
+							}
+						},
+						"on_true": {
+							"type": "minecraft:model",
+							"model": "underbaked:item/burger/low/cheese_slice",
+							"tints": []
+						},
+						"on_false": {
+							"type": "minecraft:empty"
+						}
+					},
+					{
+						"type": "minecraft:condition",
+						"property": "minecraft:component",
+						"predicate": "minecraft:custom_data",
+						"value": {
+							"ingredients": {
+								"low": "lettuce_leaf"
+							}
+						},
+						"on_true": {
+							"type": "minecraft:model",
+							"model": "underbaked:item/burger/low/lettuce_leaf",
+							"tints": []
+						},
+						"on_false": {
+							"type": "minecraft:empty"
+						}
+					},
+					{
+						"type": "minecraft:condition",
+						"property": "minecraft:component",
+						"predicate": "minecraft:custom_data",
+						"value": {
+							"ingredients": {
+								"low": "burger_patty"
+							}
+						},
+						"on_true": {
+							"type": "minecraft:model",
+							"model": "underbaked:item/burger/low/burger_patty",
+							"tints": []
+						},
+						"on_false": {
+							"type": "minecraft:empty"
+						}
+					}
+				]
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:custom_data",
+				"value": {
+					"topped": true
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "underbaked:item/burger/top_bun"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			}
+		]
+	}
+}

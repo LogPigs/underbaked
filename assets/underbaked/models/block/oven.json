@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_column",
+	"textures": {
+		"side": "underbaked:block/oven_front",
+		"end": "underbaked:block/oven_top",
+		"particle": "underbaked:block/oven_front"
+	}
+}

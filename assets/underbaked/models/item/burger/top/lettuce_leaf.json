@@ -1,0 +1,83 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "underbaked:item/burger/toppings",
+	"texture_size": [20, 20],
+	"textures": {
+		"0": "underbaked:item/lettuce_leaf_burger",
+		"particle": "underbaked:item/lettuce_leaf_burger"
+	},
+	"elements": [
+		{
+			"from": [3, 7, 3],
+			"to": [13, 9, 13],
+			"rotation": {"angle": 13.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 8.73846, 8, 10.33846], "texture": "#0"},
+				"east": {"uv": [0, 8.73846, 8, 10.33846], "texture": "#0"},
+				"south": {"uv": [0, 8.73846, 8, 10.33846], "texture": "#0"},
+				"west": {"uv": [0, 8.73846, 8, 10.33846], "texture": "#0"},
+				"up": {"uv": [0, 0, 8, 8], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [8, 8, 16, 0], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Leaf",
+			"from": [5, 8.5, 3],
+			"to": [15, 8.5, 13],
+			"rotation": {"angle": 11, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"up": {"uv": [8, 8, 16, 16], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [8, 16, 16, 8], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Leaf",
+			"from": [0.75, 8, 4.5],
+			"to": [10.75, 8, 14.5],
+			"rotation": {"angle": -6.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"up": {"uv": [8, 8, 16, 16], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [8, 16, 16, 8], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Leaf",
+			"from": [3.5, 7.5, 0.75],
+			"to": [13.5, 7.5, 10.75],
+			"rotation": {"angle": 31, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"up": {"uv": [8, 8, 16, 16], "texture": "#0"},
+				"down": {"uv": [8, 16, 16, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Leaf",
+			"from": [4, 8.5, 1.5],
+			"to": [14, 8.5, 11.5],
+			"rotation": {"angle": 36, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"up": {"uv": [8, 8, 16, 16], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [8, 16, 16, 8], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Leaf",
+			"from": [5, 8.25, 5],
+			"to": [15, 8.25, 15],
+			"rotation": {"angle": -34, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"up": {"uv": [8, 8, 16, 16], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [8, 16, 16, 8], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 4, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5]
+		}
+	]
+}

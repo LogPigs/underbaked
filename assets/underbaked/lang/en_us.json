@@ -1,0 +1,17 @@
+{
+    "underbaked.block.oven": "Oven",
+    "underbaked.block.cutting_board": "Cutting Board",
+    "underbaked.ingredient.lettuce": "Lettuce",
+    "underbaked.ingredient.lettuce_leaf": "Lettuce Leaf",
+    "underbaked.ingredient.beef": "Beef",
+    "underbaked.ingredient.patty": "Patty",
+    "underbaked.ingredient.cooked_patty": "Cooked Patty",
+    "underbaked.ingredient.cheese": "Cheese",
+    "underbaked.ingredient.cheese_slice": "Cheese Slice",
+    "underbaked.ingredient.bun_top": "Bun Top",
+    "underbaked.ingredient.bun": "Bun",
+    "underbaked.ingredient.bun_bottom": "Bun Bottom",
+    "underbaked.ingredient.ash": "Ash",
+
+    "underbaked.temperature.display": "[%s%s]"
+}

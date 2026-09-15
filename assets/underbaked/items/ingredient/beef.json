@@ -1,0 +1,33 @@
+{
+	"model": {
+		"property": "minecraft:custom_model_data",
+		"type": "minecraft:range_dispatch",
+		"entries": [
+			{
+				"threshold": 1,
+				"model": {
+					"type": "minecraft:model",
+					"model": "underbaked:item/rare_steak"
+				}
+			},
+			{
+				"threshold": 2,
+				"model": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/cooked_beef"
+				}
+			},
+			{
+				"threshold": 3,
+				"model": {
+					"type": "minecraft:model",
+					"model": "underbaked:item/welldone_steak"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/beef"
+		}
+	}
+}

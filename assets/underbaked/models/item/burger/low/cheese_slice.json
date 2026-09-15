@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "underbaked:item/burger/toppings",
+	"texture_size": [20, 13],
+	"textures": {
+		"1": "underbaked:item/cheese_slice_burger",
+		"particle": "underbaked:item/cheese_slice_burger"
+	},
+	"elements": [
+		{
+			"from": [2.999, 2.999, 2.999],
+			"to": [13.001, 5.001, 13.001],
+			"rotation": {"angle": -32.5, "axis": "y", "origin": [8, 3, 8]},
+			"faces": {
+				"north": {"uv": [0, 13.53846, 8, 16], "texture": "#1"},
+				"east": {"uv": [0, 13.53846, 8, 16], "texture": "#1"},
+				"south": {"uv": [0, 13.53846, 8, 16], "texture": "#1"},
+				"west": {"uv": [0, 13.53846, 8, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 8, 12.30769], "texture": "#1"},
+				"down": {"uv": [8, 0, 16, 12.30769], "texture": "#1"}
+			}
+		}
+	]
+}

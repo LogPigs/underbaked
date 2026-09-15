@@ -1,0 +1,7 @@
+{
+	"parent": "underbaked:item/burger_bun/buns",
+	"textures": {
+		"1": "underbaked:item/top_bun",
+		"particle": "underbaked:item/top_bun"
+	}
+}

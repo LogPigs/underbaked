@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "underbaked:item/burger/toppings",
+	"texture_size": [10, 10],
+	"textures": {
+		"0": "underbaked:item/cooked_beef",
+		"particle": "underbaked:item/cooked_beef"
+	},
+	"elements": [
+		{
+			"from": [3, 5, 3],
+			"to": [13, 7, 13],
+			"rotation": {"angle": -29, "axis": "y", "origin": [8, 6, 8]},
+			"faces": {
+				"north": {"uv": [0, 12.8, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 3.2], "texture": "#0"},
+				"south": {"uv": [0, 4.8, 16, 8], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 3.2], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#0"}
+			}
+		}
+	]
+}
